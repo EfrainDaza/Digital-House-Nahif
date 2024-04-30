@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('./partials/head', {title: "Nahif Login"})%>
+
+<body class="loginBody">
+    
+    <%- include('./partials/header') %>
+    
+    <main class="main-login">
+        <form action="/user/login" method="post" class="login">
+            <h2>ACCEDE A TU CUENTA</h2>
+            <input type="email" name="loginEmail" placeholder="E-mail">
+            <input type="password" name="loginPassword" placeholder="Contraseña">
+            <% if (locals.errors && errors.datosMal) { %>
+                <p class="mensajeError"><%=errors.datosMal.msg  %></p>
+                <% } %>
+            <div class="recordarmeLogin">
+                <input type="checkbox" name="cookie"  class="text-field" id="cookie">
+                <label class="recordarmePalabraLogin" for="cookie">Recordarme</label>
+            </div>
+            <button type="submit" class="ingresar">INGRESAR</button>
+            <a href="#" class="olvidaste">¿Olvidaste tu contraseña?</a>
+            <p class="cuenta">Si no tenés cuenta</p>
+            <a href="/user/register" class="registro">Registrate</a>
+        </form>
+    </main>
+
+    <script src="/js/login.js"></script> 
+    <%- include('./partials/footer') %>
+</body>
+
+</html>

@@ -1,0 +1,171 @@
+.miCategorias{
+    background-color: #EAF4F4;
+    font-family: 'Roboto', sans-serif;
+}
+
+.miCategorias h2, .miCategorias h3, .tituloCategoria{
+    color: #666;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0px;
+    margin-top: 0%;
+    font-family: MIGHA;
+    font-size: 17px;
+    margin-bottom: 0;
+}
+.miCategorias h3, .tituloCategoria{
+    color: #6b9080
+}
+.miCategoria2{
+    display: flex;
+}
+    
+.lista-categoria{
+    display: none;
+    flex-direction: column;
+    width: 15%;
+    margin-left: 10px;
+    
+}
+
+.lista-categoria .items-categoria{
+    display: block;
+    width: vw70px;
+    padding: 15px 0px;
+    margin-bottom: 20px;
+    background-color: #6b9080;
+    font-family: migha;
+    text-align: center;
+    border-radius: 2px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+/* PRODUCTOS====== */
+
+.lista-productos{
+    display:flex;
+    flex-wrap: wrap;
+    width: 78%;
+}
+.miCategorias article{
+    background-color: #CCE3DE;
+     width: 45%;
+     margin-left: 5%;
+     margin-bottom: 5%;
+    
+     
+ }
+
+
+
+.miCategorias article img{
+    width: 100%;
+}
+.miCategorias article h3{
+    text-align: center;
+    margin: 0;
+    font-family: migha;
+    font-size: 15px;
+    
+}
+.miCategorias .desc-prod{
+    padding: 5px;
+}
+.miCategorias article p{
+    display: block;
+    width: 100%;
+    padding: 2px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+
+    text-align: left;
+    text-decoration: none;
+    margin-left: 5px;
+    
+}
+.precio{
+    font-weight: bold;
+    font-size: 14px;
+}
+.descuento{
+    font-size: 13px;
+}
+.miCategorias .descuento{
+    
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+@media(min-width:361px){
+    .miCategorias h2, .miCategorias h3, .tituloCategoria{
+        color: #666;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 15px 0px;
+        margin-top: 0%;
+        margin-bottom: 0;
+        font-family: MIGHA;
+        font-size: 40px;
+    }
+    .precio{
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .descuento{
+        font-size: 16px;
+    }
+    .miCategorias article h3{
+        text-align: center;
+        margin: 0;
+        font-family: migha;
+        font-size: 18px;
+        
+    }
+    .miCategorias h3, .tituloCategoria{
+        color: #6b9080
+    }
+
+}
+
+    
+
+
+@media(min-width:780px){
+    .lista-categoria{
+        display: flex;
+    }
+    
+    .miCategorias article{
+        background-color: #CCE3DE;
+         width: 20%;
+         margin-left: 5%;
+         margin-bottom: 5%;
+
+         
+     }
+     .miCategorias article:hover{
+        box-shadow : 0px 0px 10px #666
+     }
+     .lista-categoria .items-categoria{
+        display: block;
+        width: vw70px;
+        padding: 15px 0px;
+        margin-bottom: 20px;
+        background-color: #6b9080;
+        font-family: migha;
+        text-align: center;
+        border-radius: 2px;
+        text-decoration: none;
+        color: black;
+    }
+    .miCategorias h3, .tituloCategoria{
+        color: #6b9080
+    }
+    
+}
+   

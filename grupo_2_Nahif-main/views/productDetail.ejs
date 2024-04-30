@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('./partials/head', {title: "Nahif Producto"})%>
+
+<body>
+    <%- include('./partials/header') %>
+    <main class="mainproducto">
+        <div class="contenidoProd">
+            <div class="producto">
+                <h3><%= detalle.nombre %></h3>
+                <p>$ <%= detalle.precio %></p>
+                <div class="productosC">
+                    <% for (let i = 0; (i < detalle.fotos.length) ; i++) { %>
+                    <img src="/img/<%= detalle.fotos[i].nombreFoto %>" alt="foto <%= i%>">
+                    <% } %>
+                </div>
+                <div class="principal">
+                    <img class="imagenPrincipal" src="/img/<%= detalle.fotoPpal%>" alt="<%= detalle.fotoPpal%>">
+                </div>
+            </div>
+            <div class="unificacion">
+                <div class="nombreProdMedia">
+                    <h3><%= detalle.nombre %></h3>
+                    <p>$ <%= detalle.precio %></p>
+                </div>
+                <div class="selecciones">
+                    <div>
+                        <label>Colores Disponibles</label>
+                        <select class="colores">
+                            <% for(let i=0;i<detalle.colores.length;i++){ %>
+                            <option value=<%= detalle.colores[i].id %> name="colores"><%= detalle.colores[i].nombre %></option>
+                            <% } %>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Cantidad</label>
+                        <select class="cantidadCarrito">
+                            <% for(let i=1;i<=detalle.stock;i++){ %>
+                                <option value=<%= i %> name="cantidadCarrito"><%= i %></option>
+                                <% } %>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="talles">Talle: <%= detalle.talles.nombre %> </label>            
+                    </div>
+                </div>
+                <div class="botones">                 
+                        <!--<button name="botonProbadorProducto" class="botonProbador" type="submit">Añadir al
+                            Vestidor</button> -->
+                        <a href="/carrito"><button name="botonPagarProducto" class="botonPagar" type="submit">Añadir al Carrito</button>                   
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="productocomplemento">
+            <h3>Completa tu look</h3>
+            <img src="/img/crop_top.jpg" alt="cropTop">
+            <img src="/img/buzo_blend.jpg" alt="buzoBlend">
+        </div>
+    </main>
+
+    <%- include('./partials/footer') %>
+<script src="/js/agregarCarrito.js"></script>
+
+</body>
+
+
+</html>

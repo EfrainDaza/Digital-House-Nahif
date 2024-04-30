@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('./partials/head', {title: "Nahif Login"})%>
+
+
+<body>
+
+<%- include("./partials/header") %>
+
+    <main class="miCategorias">
+        <h2 class="tituloCategoria">Productos Disponibles</h2>
+        <% if (nombreCategoria != undefined){ %>
+        <h3 class="tituloCategoria"><%= nombreCategoria %></h3>
+        <%}%>
+            <div class="miCategoria2">
+                
+           
+                <div class="lista-categoria">
+                    <% for (i=0; i<categorias.length; i++){ %>
+                        <a href="/products/list/<%=categorias[i].id%>" class="items-categoria"><%= categorias[i].nombre %></a>
+                        <p hidden class="totalCategorias" value="<%= i%>"></p>
+                        <% } %>
+                </div>
+                <section class="lista-productos">
+                    <% if (products.length>0){ %>
+                    <% products.forEach(productos => {%>
+                         
+                            <Article>
+
+                                <a href="/products/detail/<%=productos.id%>"><img src = "/img/<%=productos.fotoPpal%>" alt="<%=productos.nombre%>"></a>
+                        
+                                <h3 class="desc-prod"><%=productos.nombre%></h3>
+                                <p class="precio">Precio: $ <%=productos.precio%></p>
+                                <p class="descuento">Descuento: <%=productos.descuento%>%</p>
+                            </Article>
+                        
+                    <%}) }else{ %>
+                        <div class="gracias">
+                            <h1 >No hay productos por el momento</h1>
+                        </div>
+                    <%} %>
+                </section>
+            </div>
+    </main>
+    <%- include('./partials/footer')%>
+
+</body>
+</html>

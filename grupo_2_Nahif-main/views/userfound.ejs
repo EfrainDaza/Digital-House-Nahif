@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('./partials/head', {title: "Nahif Users" })%>
+
+    <body>
+        <%- include('./partials/header') %>
+            <main id="main-registro">
+
+                <div class="userPerfil">
+
+                    <h2 class="subtitulo-crear-cuenta">CUENTA</h2>
+
+
+                    <div class="div-foto-perfil">
+
+                        <% if (users.fotoPerfil !="" ){ %>
+                            <img class="foto-perfil" src="/img/<%= users.fotoPerfil %>" alt="fotoPerfil">
+                            <% } %>
+                    </div>
+                    
+                    <label class="label-perfil">Nombre</label>
+                    <div class="nombre-perfil">
+                        <p>
+                            <%= users.nombre %>
+                        </p>
+                    </div>
+
+                    <label class="label-perfil">Apellido</label>
+                    <div class="nombre-perfil">
+                        <p>
+                            <%= users.apellido %>
+                        </p>
+                    </div>
+
+                    <label class="label-perfil">Email</label>
+                    <div class="email-perfil">
+                        <p>
+                            <%= users.email %>
+                        </p>
+                    </div>
+                    <div class="botonLogout">
+                        <a class="cerrarSesion" href="/user/modifUsuario">Modificar Perfil</a>
+                    </div>
+                    <div class="botonLogout">
+                        <a class="cerrarSesion" href="/user/logout">Cerrar sesión</a>
+                    </div>
+
+                </div>
+            </main>
+            <%- include('./partials/footer') %>
+    </body>
+
+</html>

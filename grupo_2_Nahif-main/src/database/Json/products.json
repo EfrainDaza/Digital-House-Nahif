@@ -1,0 +1,411 @@
+[
+  {
+    "id": 1,
+    "nombre": "Polera Combinada",
+    "detalle": "Polera combinada manga campana Odesa prueba",
+    "fotoPpal": "polera-combinada.png",
+    "fotos": [
+      "polera-c2.png",
+      "polera-c3.png",
+      "polera-c4.png"
+    ],
+    "precio": "8530",
+    "descuento": "10000",
+    "colores": [
+      "Rosa",
+      "Crema",
+      "Verde"
+    ],
+    "talles": [
+      "S",
+      "M"
+    ],
+    "tU": "5",
+    "tS": "5",
+    "tM": "0",
+    "tL": "0",
+    "categoria": "Buzos",
+    "borrado": false
+  },
+  {
+    "id": 2,
+    "fotoPpal": "polera-Lanilla.png",
+    "fotos": [
+      "polera-c2.png",
+      "polera-c3.png",
+      "polera-c4.png"
+    ],
+    "nombre": "Polera lanilla",
+    "detalle": "Polera lanilla brush con recorte tipo corset Bellrose",
+    "precio": 7690,
+    "descuento": 10000,
+    "categoria": "Poleras",
+    "colores": [
+      "Negro",
+      "Rosa",
+      "Crema"
+    ],
+    "talles": [
+      "Talle único"
+    ],
+    "tU": "0",
+    "tS": "2",
+    "tM": "1",
+    "tL": "4",
+    "borrado": false
+  },
+  {
+    "id": 3,
+    "fotoPpal": "polera-Trenzas.png",
+    "fotos": [
+      "polera-c2.png",
+      "polera-c3.png",
+      "polera-c4.png"
+    ],
+    "nombre": "Polera con diseño Trenza",
+    "detalle": "Polera trenzas gruesas y finas Linette",
+    "precio": 7690,
+    "descuento": 10000,
+    "categoria": "Poleras",
+    "colores": [
+      "Crema",
+      "Verde",
+      "Blanco",
+      "Azul"
+    ],
+    "talles": [
+      "M",
+      "L"
+    ],
+    "tU": "0",
+    "tS": "0",
+    "tM": "5",
+    "tL": "2",
+    "borrado": false
+  },
+  {
+    "id": 4,
+    "fotoPpal": "Poleron-Largo2.png",
+    "fotos": [
+      "polera-c2.png",
+      "polera-c3.png",
+      "polera-c4.png"
+    ],
+    "nombre": "Polera Trenzas Black",
+    "detalle": "Polera punto morley con trenza lateral",
+    "precio": 7690,
+    "descuento": 10000,
+    "categoria": "Poleras",
+    "colores": [
+      "Negro",
+      "Azul",
+      "Blanco",
+      "Crema",
+      "Verde"
+    ],
+    "talles": [
+      "Talle único"
+    ],
+    "tU": 8,
+    "tS": 0,
+    "tM": 0,
+    "tL": 0,
+    "borrado": false
+  },
+  {
+    "id": 5,
+    "fotoPpal": "polera-c2.png",
+    "fotos": [
+      "polera-c2.png",
+      "polera-c3.png",
+      "polera-c4.png"
+    ],
+    "nombre": "Polera Combinada Marrón",
+    "detalle": "Polera combinada manga campana Odesa",
+    "precio": 8290,
+    "descuento": 10000,
+    "categoria": "Poleras",
+    "colores": [
+      "Negro",
+      "Verde",
+      "Blanco"
+    ],
+    "talles": [
+      "S",
+      "L"
+    ],
+    "tU": 0,
+    "tS": 3,
+    "tM": 0,
+    "tL": 2,
+    "borrado": false
+  },
+  {
+    "id": 6,
+    "fotoPpal": "remera-algodon.png",
+    "fotos": [
+      "polera-c2.png",
+      "polera-c3.png",
+      "polera-c4.png"
+    ],
+    "nombre": "Remera algodón",
+    "detalle": "Polera lanilla brush con recorte tipo corset Bellrose",
+    "precio": 5490,
+    "descuento": 10000,
+    "categoria": "Remeras",
+    "colores": [
+      "Negro",
+      "Blanco"
+    ],
+    "talles": [
+      "S",
+      "M",
+      "L"
+    ],
+    "tU": 0,
+    "tS": 5,
+    "tM": 3,
+    "tL": 4,
+    "borrado": false
+  },
+  {
+    "id": 7,
+    "fotoPpal": "remera-amplia.png",
+    "fotos": [
+      "polera-c2.png",
+      "polera-c3.png",
+      "polera-c4.png"
+    ],
+    "nombre": "Remera oversize",
+    "detalle": "Polera trenzas gruesas y finas Linette",
+    "precio": 6990,
+    "descuento": 10000,
+    "categoria": "Remeras",
+    "colores": [
+      "Negro",
+      "Azul",
+      "Rosa",
+      "Verde"
+    ],
+    "talles": [
+      "Talle único"
+    ],
+    "tU": 11,
+    "tS": 0,
+    "tM": 0,
+    "tL": 0,
+    "borrado": false
+  },
+  {
+    "id": 8,
+    "fotoPpal": "remera-corta.png",
+    "fotos": [
+      "polera-c2.png",
+      "polera-c3.png",
+      "polera-c4.png"
+    ],
+    "nombre": "Remera Corta",
+    "detalle": "Polera punto morley con trenza lateral",
+    "precio": 7690,
+    "descuento": 10000,
+    "categoria": "Remeras",
+    "colores": [
+      "Negro",
+      "Azul",
+      "Blanco"
+    ],
+    "talles": [
+      "S",
+      "M",
+      "L"
+    ],
+    "tU": 0,
+    "tS": 7,
+    "tM": 3,
+    "tL": 4,
+    "borrado": false
+  },
+  {
+    "id": 9,
+    "fotoPpal": "remera-lanilla.png",
+    "fotos": [
+      "polera-c2.png",
+      "polera-c3.png",
+      "polera-c4.png"
+    ],
+    "nombre": "Remera lanilla",
+    "detalle": "Polera trenzas gruesas y finas Linette",
+    "precio": 6990,
+    "descuento": 10000,
+    "categoria": "Remeras",
+    "colores": [
+      "Verde",
+      "Azul",
+      "Rosa",
+      "Crema"
+    ],
+    "talles": [
+      "M",
+      "L"
+    ],
+    "tU": 0,
+    "tS": 0,
+    "tM": 3,
+    "tL": 5,
+    "borrado": false
+  },
+  {
+    "id": 10,
+    "fotoPpal": "remera-manga-larga.png",
+    "fotos": [
+      "polera-c2.png",
+      "polera-c3.png",
+      "polera-c4.png"
+    ],
+    "nombre": "Remera manga larga",
+    "detalle": "Polera punto morley con trenza lateral",
+    "precio": 7690,
+    "descuento": 10000,
+    "categoria": "Remeras",
+    "colores": [
+      "Negro",
+      "Blanco",
+      "Crema"
+    ],
+    "talles": [
+      "S",
+      "M",
+      "L"
+    ],
+    "tU": 0,
+    "tS": 3,
+    "tM": 2,
+    "tL": 1,
+    "borrado": false
+  },
+  {
+    "id": 11,
+    "nombre": "sdv",
+    "fotoPpal": "1688357620496.jpg",
+    "fotos": [
+      "1687235242327.jpg"
+    ],
+    "detalle": "xcbxDescripción del producto",
+    "precio": "5555",
+    "categoria": "Poleras",
+    "colores": [
+      "Negro",
+      "Rosa",
+      "Verde"
+    ],
+    "talles": [
+      "S",
+      "L"
+    ],
+    "tU": "0",
+    "tS": "1",
+    "tM": "2",
+    "tL": "2",
+    "descuento": "10000",
+    "borrado": true
+  },
+  {
+    "id": 12,
+    "fotoPpal": "1687235242327.jpg",
+    "nombre": "uycv",
+    "fotos": [
+      "1687235242327.jpg",
+      "1687283541903.jpg"
+    ],
+    "detalle": "Descripción del productohv ihv",
+    "precio": "5476",
+    "categoria": "Pantalones",
+    "colores": "Blanco",
+    "talles": "S",
+    "tU": "0",
+    "tS": "1",
+    "tM": "0",
+    "tL": "0",
+    "descuento": 10000,
+    "borrado": true
+  },
+  {
+    "id": 13,
+    "fotoPpal": "default-image.jpg",
+    "fotos": [
+      "1687746591618.jpg",
+      "1688251808102.jpg"
+    ],
+    "nombre": "Prod Prueba",
+    "detalle": "Descripción del producto",
+    "precio": "2555",
+    "categoria": "Remeras",
+    "colores": [
+      "Negro",
+      "Crema",
+      "Blanco",
+      "Azul"
+    ],
+    "talles": [
+      "S",
+      "M"
+    ],
+    "tU": "1",
+    "tS": "0",
+    "tM": "2",
+    "tL": "0",
+    "descuento": "2000",
+    "borrado": true
+  },
+  {
+    "id": 14,
+    "fotoPpal": "1687283541896.jpg",
+    "fotos": [
+      "1687283541900.jpg",
+      "1687283541903.jpg",
+      "1687283541908.jpg"
+    ],
+    "nombre": "Prueba de alta",
+    "detalle": "Descripción del producto aaaa",
+    "precio": "8750",
+    "categoria": "Shorts",
+    "colores": [
+      "Blanco",
+      "Crema"
+    ],
+    "talles": [
+      "S",
+      "M"
+    ],
+    "tU": "0",
+    "tS": "2",
+    "tM": "4",
+    "tL": "0",
+    "descuento": "10000",
+    "borrado": true
+  },
+  {
+    "id": 15,
+    "fotoPpal": "1688140928837.jpg",
+    "fotos": [],
+    "nombre": "Producto Nuevo",
+    "detalle": "Descripción del producto detalles",
+    "precio": "7980",
+    "categoria": "Buzos",
+    "colores": [
+      "Negro",
+      "Crema",
+      "Blanco"
+    ],
+    "talles": [
+      "M",
+      "L"
+    ],
+    "tU": "0",
+    "tS": "0",
+    "tM": "2",
+    "tL": "2",
+    "descuento": "8500",
+    "borrado": true
+  }
+]

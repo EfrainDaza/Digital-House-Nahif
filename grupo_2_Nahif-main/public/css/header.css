@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    width: 100vw;
+}
+
+main {
+    width: 100vw;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    background-image: url("/img/fondo-hojas.png");
+    width: 100vw;
+    font-size: 25px;
+}
+
+.header-top h1 {
+    font-weight: 400;
+    transition: all 350ms;
+}
+
+.header-logo {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    transition: all 400ms;
+}
+
+header .fotoLogo {
+    width: 15vw;
+    max-width: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header .fotoLogo img {
+    width: 100%;
+}
+
+header .nombreMarca {
+    margin: auto;
+}
+
+.header-menu {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    padding: 5px;
+    background-color: rgba(204, 227, 222, 80%);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    transition: all 400ms;
+}
+
+.header-top .userMenu {
+    display: none
+}
+
+.nav-lateral {
+    display: none;
+    transition: all 400ms;
+}
+
+.header-menu:hover .nav-lateral, .header-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    font-size: 18px;
+    z-index: 100;
+}
+
+.header-menu:hover {
+    box-shadow: 1px 1px 3px #2a2e2c;
+}
+
+.header-menu input {
+    max-width: 100px;
+}
+
+.header-menu i {
+    color: #6b9080;
+}
+
+.header-bottom {
+    display: none;
+    transition: all 350ms;
+}
+
+.formSearch {
+    color: #6b9080;
+    background-color: #CCE3DE;
+    border: none;
+    display: flex;
+}
+
+.formSearch:hover {
+    box-shadow: 1px 1px 3px #2a2e2c;
+}
+
+.formSearch input,
+.formSearch button {
+    background-color: #fff;
+    border: none;
+}
+
+.botonLupa {
+    margin: 0;
+    padding: 0;
+}
+
+.header-bottom a,
+.nav-lateral a,
+.header-top .userMenu a {
+    text-decoration: none;
+    color: #6b9080;
+    text-align: center;
+    transition: all 350ms;
+}
+
+.nav-lateral a {
+    font-size: 20px;
+    color: #6b9080;
+}
+
+.header-bottom a:hover {
+    text-shadow: 1px 1px 3px #6b9080;
+}
+
+.fotoPerfilHeaderLat{
+    height: 70px;
+    text-align: center;
+}
+.infoPerfilHeaderLat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 769px) {
+    .header-bottom {
+        display: flex;
+        width: 100vw;
+        justify-content: space-around;
+        background-color: #CCE3DE;
+        font-size: 12px;
+        padding: 5px 0px 5px 0px;
+    }
+
+    .header-top .nombreMarca {
+        margin-left: 40%;
+    }
+
+    .header-menu {
+        display: none;
+    }
+
+    .header-top h1 {
+        font-size: 3em;
+    }
+
+    .header-bottom {
+        font-size: 15px;
+    }
+
+    .header-logo {
+        top: 20px
+    }
+
+    .header-top .userMenu {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        background-color: #CCE3DE;
+        align-items: flex-end;
+        justify-content: center;
+        height: fit-content;
+        padding: 10px;
+        margin-top: 15px;
+        gap: 10px;
+        margin-right: 20px;
+    }
+
+    .header-top .userMenu a:hover {
+        text-shadow: 1px 1px 3px #6b9080;
+    }
+
+    .infoPerfilHeader{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0px;
+        justify-items: center;
+    }
+
+    .fotoPerfilHeader {
+        max-height: 65px;
+        border-radius: 5%;
+        align-items: center;
+    }
+    .infoPerfilHeader p {
+        width: 100%;
+        margin: 0px;
+        margin-top: 5px;
+    }
+}

@@ -1,0 +1,253 @@
+
+
+.form-registro { 
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #a4c3b2;
+    border: #6b6d6c 1px;
+    border-radius: 5%;;
+    box-shadow: 3px 3px 5px 1px #2a2e2c;
+    max-width: 400px;
+    display: flex;
+}
+
+.subtitulo-crear-cuenta {
+    text-align: center;
+    font-family: migha;
+    font-weight: bold;
+    color: #666;
+
+}
+
+.email-registro {
+    padding-top: 10px;
+}
+
+.contraseña-registro {
+    padding-top: 10px;
+}
+
+.conf-contra-registro {
+    padding-top: 10px;
+}
+
+.label-registro {
+    font-family: Roboto;
+    text-align: left;
+    width: 100%;
+    margin-left: 3px;
+}
+
+.input-registro {
+    background-color: #FFF;   
+    font-size: 14px;
+    width: 95%;
+    justify-content: space-around;
+    border:none;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+
+.registro-noRobot {
+    display: flex;
+    background-color: #afcfbe;
+    padding-right: 0;
+    text-align: center;
+    align-items: center;
+    font-family: Roboto;
+    border-radius: 5%;
+    width: 50%;
+    justify-items: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.registro-robot {
+    width: 50%;
+}
+
+.registro-label-noRobot {
+    font-size: 12px;
+}
+
+.registro-input-checkbox {
+    background-color: #cce3de;
+    width: 15%;
+    margin: 0;
+}
+
+.registro-div-boton {
+    text-align: center;
+    background-color: #a4c3b2;
+}
+
+.registro-captcha {
+    width: 50%;
+}
+
+.registro-reCaptcha {
+    width: 25%;
+    margin-top: 8px;
+}
+
+.privacidad-condiciones {
+    font-size: 11px;
+    margin: 0;
+}
+
+
+.registro-boton-crearCuenta {
+    background-color: #6B9080;
+    color: #FFF;
+    font-family: migha;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5%;
+    width: 80%;
+}
+
+.registro-boton-crearCuenta:hover {
+    text-shadow: 1px 1px 1px #2a2e2c;
+    background-color: #2a7474;
+    transition: all 0.3s;
+}
+
+.registro-div-iniciaSesion {
+    text-align: center;
+    font-family: Roboto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.registro-yaTenesUnaCuenta {
+    width: 50%;
+    font-size: 14px;
+    margin-left: 48px;
+    margin-bottom: 23px;
+}
+
+
+.registro-link-iniciaSesion {
+    font-weight: bold;
+    color: #666;
+    width: 45%;
+    font-size: 14px;
+    padding-right: 150px;
+    padding-left: 0;
+    margin-bottom: 12px;
+    margin-left: 0;
+    margin-right: 12px;
+}
+
+.registro-link-iniciaSesion:hover {
+    text-shadow: 1px 1px 1px #2a2e2c;
+}
+
+.registro-link-iniciaSesion {
+    margin-top: 5px;
+    padding-right: 20px;
+}
+
+.foto-registro {
+    display: flex;
+    flex-direction: column;
+    font-family: roboto;
+    margin-left: 8px;
+    background-color: #CCE3DE;
+    margin-right: 18px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+ 
+@media (min-width: 361px) {
+
+    #main-registro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #EAF4F4;
+    }
+
+    .registro-yaTenesUnaCuenta { 
+        margin-left: 48px;
+        margin-bottom: 23px;
+    }
+    
+    
+    .registro-link-iniciaSesion {
+        font-weight: bold;
+        color: #666;
+        width: 45%;
+        font-size: 14px;
+        padding-right: 45px;
+        padding-left: 0;
+        margin-bottom: 12px;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 769px) {
+
+    .formularioUser {
+        max-width: 400px;
+    }
+
+    .form-registro {
+        max-width: 400px;
+    }
+
+    .registro-label-noRobot {
+        font-size: 12px;
+    }
+
+    .label-registro {
+        margin-left: 10px;
+    }
+
+    .input-registro {
+        font-size: 16px;
+        font-weight: normal;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+   .label-registro {
+        font-size: 16px;
+   }
+
+   .subtitulo-crear-cuenta {
+        font-size: 24px;
+   }
+
+   .registro-boton-crearCuenta {
+        font-size: 16px;
+   }
+
+   .registro-div-iniciaSesion {
+        margin-left: 10px;
+        margin-right: 225px;
+        width: 100%;
+   }
+
+   .privacidad-condiciones {
+        font-size: 14px;
+        margin-top: 0;
+   }
+   
+   .registro-link-iniciaSesion {
+        margin-right: 60px;
+}
+    .foto-registro {
+        font-size: 16px;
+    }
+}

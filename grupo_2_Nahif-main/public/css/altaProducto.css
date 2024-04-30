@@ -1,0 +1,178 @@
+.mainAltaProd {
+    background-color: #EAF4F4;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    text-align: center;
+}
+.mensajeError {
+        color: rgb(101, 19, 19);
+        margin-top: 8px;
+        margin-bottom: 8px;
+        font-family: roboto;
+        font-style: italic;
+        font-weight: bold;
+        text-align: center;
+    }
+
+.mainAltaProd h2 {
+    text-align: center;
+    font-family: migha;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+    color: #666;
+    transition: all 350ms;
+    margin-bottom: 0px;
+}
+
+.mainAltaProd form {
+    background-color: #a4c3b2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    width: 80%;
+    padding: 15px 0;
+    margin-bottom: 30px;
+    border-radius: 5%;
+    font-size: 80%;
+    box-shadow: 3px 3px 5px 1px #2a2e2c;
+    margin-right: 0;
+    transition: all 350ms;
+}
+
+.formAltaProd, .formAltaProducto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formAltaProd p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.formAltaProd textarea{
+    width: 95%;
+}
+
+ .formAltaProd label {
+    border-radius: 5%;
+}
+
+
+.nuevaFotoProd {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap:10px;
+    width: 90%;
+    justify-content: center;
+    border: 1px solid #6B9080;
+}
+
+.categoriasAlta{
+    margin-top: 10px;
+}
+
+.colProdAlta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.colProdAlta div{
+    display: flex;
+    align-items: center;
+}
+
+.colProdAlta p, .tallesProdAlta p, .cantTalleAltaProd p{
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+
+.colProdAlta label, .tallesProdAlta label{
+    margin-left: 3px;
+}
+
+.colProdAlta input, .tallesProdAlta input {
+    margin-left: 8px;
+}
+
+.cantTalleAltaProd {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+    align-items: center;
+    gap:5px
+}
+
+.cantTalleAltaProd input {
+    max-width: 50px;
+    width: 45%;
+    margin-left: 5px;
+}
+
+.cantTalleAltaProd label{
+    width: 45%;
+}
+
+.precioProdAlta, .antesProdAlta, .precioProdAlta p{
+    font-size: 13px;
+    font-weight: bold;
+    color: #666;
+}
+
+.precioProdAlta input, .antesProdAlta input {
+    max-width: 60px;
+}
+
+.formAltaProd button {
+    background-color: #6B9080;
+    font-family: migha;
+    margin: 0px 5px;
+    border-radius: 10%;
+    color: #EAF4F4;
+    height: fit-content;
+}
+
+.formAltaProd button:hover {
+    background-color: #557567;
+    box-shadow: 1px 1px 5px 1px #2a2e2c;
+}
+
+.botonesAlta{
+    margin-top: 10px;
+}
+
+@media (min-width: 769px) {
+    .mainAltaProd{
+        font-size: 15px;
+    }
+    .mainAltaProd h2{
+        font-size: 25px;
+    }
+    .formAltaProd p {
+        font-size: 17px;
+    }
+    .precioProdAlta, .antesProdAlta {
+        font-size: 17px;
+    }
+    .formAltaProd label {
+        border-radius: 5%;
+        width: 16%;
+    }
+    .nuevaFotoProd {
+        flex-wrap: nowrap;
+    }
+    .mainAltaProd form {
+        width: 50%;
+    }
+}
